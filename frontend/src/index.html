@@ -1,0 +1,21 @@
+<body onload="revalidate()">
+  <form id="textsearchform" action="http://localhost:8080/match">
+	<label for="main-text">
+		<strong>Main Text:</strong>
+		<input type="text" name="text" id="main-text">
+	</label>
+
+	<label for="sub-text">
+		<strong>Sub Text:</strong>
+		<input type="text" name="subText" id="sub-text">
+	</label>
+
+	<input type="submit" value="Search">
+  </form>
+
+  <table border="1">
+     <tr><td>Location(s) :</td><td id="location"></td></tr>
+  </table>
+
+  <script type="text/javascript" src="js/form.js"></script>
+</body>
